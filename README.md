@@ -5,8 +5,8 @@ It will adjust your calibrated floor level setup in SteamVR to the level of the 
 
 ## Getting Started
 
-Simply Download the FloorFix.cs file, add it to your project.
-Add the script to a gameobject, and call the ___ method. Either via button click or from your own script.
+Simply Download the [FloorFix.cs](FloorFix) file, add it to your project.
+Add the script to a gameobject, and call the StartFloorFix method. Either via button click or from your own script.
 There are a few UnityEvents you can subscribe to to get info from the progress of the floor fix.
 If requested I will add a full example project.
 
