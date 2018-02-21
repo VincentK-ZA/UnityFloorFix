@@ -1,87 +1,30 @@
-# Project Title
+# UnityFloorFix
 
-One Paragraph of project description goes here
+A Unity C# implementation of the floor fix implemented at https://github.com/matzman666/OpenVR-AdvancedSettings for OpenVR (SteamVR). 
+It will adjust your calibrated floor level setup in SteamVR to the level of the lowest controller.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Simply Download the FloorFix.cs file, add it to your project.
+Add the script to a gameobject, and call the ___ method. Either via button click or from your own script.
+There are a few UnityEvents you can subscribe to to get info from the progress of the floor fix.
+If requested I will add a full example project.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+This solution uses OpenVR's SDK. So you will need to download https://assetstore.unity.com/packages/templates/systems/steamvr-plugin-32647 and add it to your project. 
+You will need to set it as your selected (active) SDK in Unity as well.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Vincent Kruger** - *Initial Implementation* - (https://github.com/Vincent-1236/)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+See the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* https://github.com/matzman666/ for his his OpenVR-AdvancedSettings Project
+* Valve for the SteamVR and OpenVR Unity implementations
+* https://github.com/purplebooth for the ReadMe Format (https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
