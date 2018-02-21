@@ -21,10 +21,10 @@ You will need to set it as your selected (active) SDK in Unity as well.
 
 ## License
 
-See the [LICENSE.md](LICENSE.md) file for details
+See the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 
-* https://github.com/matzman666/ for his his OpenVR-AdvancedSettings Project
+* [https://github.com/matzman666/](MatzMan666) for his his OpenVR-AdvancedSettings Project
 * Valve for the SteamVR and OpenVR Unity implementations
-* https://github.com/purplebooth for the ReadMe Format (https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+* [https://github.com/purplebooth](PurpleBooth) for the ReadMe Format (https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
