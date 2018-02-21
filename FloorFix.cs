@@ -21,7 +21,7 @@ public class FloorFix : MonoBehaviour
     double ControllerDownOffsetCorrection = 0.006f; //Controller placed touchpad down. Could add constant for oculus controller, and check for type
 
     //Call this method to begin the floor fix process
-    public void BeginFloorFix()
+    public void StartFloorFix()
     {
         FloorFixStarted.Invoke();
         CurMeasurementCount = 0;
